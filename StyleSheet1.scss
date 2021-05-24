@@ -1,0 +1,22 @@
+﻿#form1 {
+    & > div {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+}
+
+#content {
+    margin-top: 35px;
+    .element {
+        margin-bottom: 10px;
+        div {
+            display: flex;
+            gap: 25px;
+        }
+        p {
+            margin: 3px;
+            padding: 0px;
+        }
+    }
+}
